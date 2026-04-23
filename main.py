@@ -74,7 +74,7 @@ Examples:
             raise ValueError("Command not found!")
 
     # Guardar solo una vez al final
-    if file_modified:
+    if file_modified or not tasks:
         write_todo_file(file_path, tasks)
 
 except IndexError as e:
