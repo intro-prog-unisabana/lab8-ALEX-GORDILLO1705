@@ -3,7 +3,7 @@ Lab 8
 /****************************************************************************
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
-Número de horas:
+Número de horas: 7 horas de practica en el laboratorio.
 
 
 /****************************************************************************
@@ -11,19 +11,19 @@ Número de horas:
 ******************************************************************************/
 
 ¿Sí o no?
-
+si el tema en la terminal para poder probar los codigos me confundia un poco poruqe en github nos daban los ejemlos pero como las terminales no las teniamos iguales confundia
 
 /****************************************************************************
 * Escribe cualquier otro comentario aquí.
 ******************************************************************************/
 
-
+ninguna.
 
 /****************************************************************************
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+[https://github.com/ALEX-GORDILLO1705]
 
 /****************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -34,4 +34,4 @@ Número de horas:
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
+[Esta tarea de programación representa mi propio trabajo de acuerdo con las regulaciones de la Universidad.  /s/ Yilder Alexander Gordillo Basto.]

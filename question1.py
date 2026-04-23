@@ -16,7 +16,7 @@ try:
      
     load_per_support = total_load / num_supports  
 
-    print(f"Carga por punto de soporte: {load_per_support:.2f}")
+    print(f"Carga por punto de soporte: {load_per_support:.2f} N")
 
 
 except ValueError:
