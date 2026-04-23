@@ -4,9 +4,11 @@ import sys
 from todo_manager import read_todo_file, write_todo_file
 
 try:
+    # Validar argumentos mínimos
     if len(sys.argv) < 2:
         raise IndexError("Insufficient arguments provided!")
 
+    # Comando de ayuda
     if sys.argv[1] == "--help":
         print("""Usage: python main.py <file_path> <command> [arguments]...
 
@@ -24,9 +26,11 @@ Examples:
 
     file_path = sys.argv[1]
 
+    # Si solo pasa el archivo → salir silenciosamente
     if len(sys.argv) == 2:
         sys.exit(0)
 
+    # Leer archivo una sola vez
     tasks = read_todo_file(file_path)
 
     i = 2
@@ -69,6 +73,7 @@ Examples:
         else:
             raise ValueError("Command not found!")
 
+    # Guardar solo una vez al final
     if file_modified:
         write_todo_file(file_path, tasks)
 
